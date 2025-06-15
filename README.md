@@ -1,121 +1,103 @@
 
-# Java Projects Repository ☕💻  
 
-This repository contains a collection of Java projects that demonstrate my knowledge of core Java programming, object-oriented principles, and practical problem-solving. The projects range from beginner-level applications to advanced implementations, showcasing my progression and expertise in Java.  
+# ☕ Java Projects Portfolio
 
----
-
-## 📋 **Table of Contents**  
-
-1. [About the Repository](#about-the-repository)  
-2. [Projects Included](#projects-included)  
-3. [Technologies Used](#technologies-used)  
-4. [Setup and Installation](#setup-and-installation)  
-5. [Screenshots](#screenshots)  
-6. [Contributing](#contributing)  
-7. [License](#license)  
-8. [Contact](#contact)  
+Welcome to my **Java Projects** repository!
+This collection includes beginner-to-intermediate level Java applications that demonstrate my understanding of **OOP**, **file handling**, and **console-based interactions**.
 
 ---
 
-## 📝 **About the Repository**  
+## 📁 Project Structure
 
-This repository is a curated collection of Java projects I have developed. The aim of these projects is to:  
-- Apply Java programming concepts in practical scenarios.  
-- Demonstrate problem-solving and coding best practices.  
-- Provide reusable code and templates for various applications.  
-
----
-
-## 📂 **Projects Included**  
-
-### 1. **Basic Calculator**  
-- A command-line application for basic arithmetic operations.  
-- Implements input validation and exception handling.  
-
-### 2. **Bank Account Management System**  
-- Simulates basic banking operations like deposit, withdrawal, and balance inquiry.  
-- Demonstrates object-oriented programming (OOP) principles.  
-
-### 3. **Student Management System**  
-- A system to manage student records, including adding, deleting, and viewing details.  
-- Uses file handling to store data persistently.  
-
-### 4. **Multithreading Demonstration**  
-- Examples of thread creation, synchronization, and inter-thread communication.  
-- Highlights Java’s multithreading capabilities.  
-
-### 5. **Library Management System**  
-- A mini-project to manage book records in a library.  
-- Includes options for adding, deleting, and searching books.  
-
-*(Add or modify project descriptions as per the actual content of the repository.)*  
+```
+java-projects/
+├── Atm_Interface.java
+├── Number_game.java
+├── Student_Management_System.java
+├── student_grade_calculator.java
+├── LICENSE
+└── README.md
+```
 
 ---
 
-## 💻 **Technologies Used**  
+## 📌 Projects Overview
 
-- **Core Java**: Main programming language.  
-- **JDK**: Version used (e.g., JDK 17).  
-- **IDE**: IntelliJ IDEA, Eclipse, or any other IDE.  
-- **File Handling**: For data storage (if applicable).  
+### 🏧 ATM Interface
 
----
+Simulates ATM functionality like checking balance, withdrawing, and depositing money.
+Includes basic menu navigation and input validation.
 
-## 🛠 **Setup and Installation**  
+### 🎲 Number Guessing Game
 
-1. Clone the repository:  
-   ```bash  
-   git clone https://github.com/amanantuley/java-projects.git  
-   ```  
+A fun console game where the player guesses a number within a limited number of attempts.
+Uses random number generation and simple logic handling.
 
-2. Navigate to the project folder:  
-   ```bash  
-   cd java-projects  
-   ```  
+### 🎓 Student Management System
 
-3. Open the project in your preferred IDE (e.g., IntelliJ IDEA or Eclipse).  
+Manage student records via console interface – add, delete, search, and list all students.
+Implements **file handling** for persistent data storage.
 
-4. Compile and run the desired Java file:  
-   ```bash  
-   javac <filename>.java  
-   java <classname>  
-   ```  
+### 📊 Grade Calculator
+
+Takes subject marks as input and calculates the average, percentage, and grade.
+Demonstrates use of conditionals and user-defined methods.
 
 ---
 
-## 📸 **Screenshots**  
+## 🛠 Technologies Used
 
-### Example: Calculator Project  
-![Calculator](screenshots/calculator.png)  
-
-### Example: Student Management System  
-![Student Management](screenshots/student-management.png)  
-
-*(Add screenshots for key projects as necessary.)*  
+* **Java (JDK 17)**
+* **Console I/O**
+* **OOP Concepts** (Classes, Objects, Methods)
+* **File Handling** (for persistent storage)
 
 ---
 
-## 🤝 **Contributing**  
+## 🚀 Getting Started
 
-Contributions are welcome!  
-1. Fork the repository.  
-2. Create a feature branch (`git checkout -b feature-name`).  
-3. Commit your changes (`git commit -m "Add feature-name"`).  
-4. Push to the branch (`git push origin feature-name`).  
-5. Open a Pull Request.  
+1. Clone this repository
+
+   ```bash
+   git clone https://github.com/amanantuley/java-projects.git
+   cd java-projects
+   ```
+
+2. Compile and run any project:
+
+   ```bash
+   javac Atm_Interface.java
+   java Atm_Interface
+   ```
+
+> Use the appropriate filename and class name when running different projects.
 
 ---
 
-## 📄 **License**  
+## 📥 Contributions
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.  
+Pull requests are welcome!
+If you have improvements or new Java mini-projects to contribute:
+
+```bash
+git fork https://github.com/amanantuley/java-projects.git
+git checkout -b feature/new-project
+# Make changes
+git commit -m "Added new Java project"
+git push origin feature/new-project
+```
 
 ---
 
-## 📬 **Contact**  
+## 📄 License
 
-- **Developer**: Aman Antuley  
-- **Email**: [your-email@example.com](mailto:your-email@example.com)  
-- **GitHub**: [https://github.com/amanantuley](https://github.com/amanantuley)  
-- **LinkedIn**: [Your LinkedIn Profile](https://www.linkedin.com/in/your-profile)  
+This project is licensed under the [MIT License](./LICENSE).
+
+---
+
+## 📬 Contact
+
+* 📧 **Email**: [amanantuley@gmail.com](mailto:amanantuley@gmail.com)
+* 💼 **LinkedIn**: [linkedin.com/in/amanantuley](https://linkedin.com/in/amanantuley)
+* 🐙 **GitHub**: [github.com/amanantuley](https://github.com/amanantuley)
+
